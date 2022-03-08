@@ -91,9 +91,8 @@ export default {
             }
         },
         debug(event) {
-            console.log(typeof event)
+            console.log(event)
         }
     }
-    // layout: Layout,
 }
 </script>

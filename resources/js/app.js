@@ -3,6 +3,15 @@ import { createInertiaApp } from '@inertiajs/inertia-vue3'
 
 import Layout from "./Shared/Layout";
 
+import { InertiaProgress } from '@inertiajs/progress'
+
+InertiaProgress.init({
+    delay: 0,
+    color: '#3B82F6',
+    includeCSS: true,
+    showSpinner: false,
+});
+
 createInertiaApp({
     resolve: name => {
         const page = require(`./Pages/${name}`).default

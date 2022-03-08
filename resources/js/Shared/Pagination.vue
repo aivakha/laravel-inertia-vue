@@ -42,7 +42,7 @@ export default {
         links: Array,
         currentPage: Number,
         totalPages: Number,
-        lastPage: Number
+        lastPage: Number,
     },
     methods: {
         debug(event) {
